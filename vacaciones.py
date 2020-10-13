@@ -1,10 +1,10 @@
-# plan-de-vacaciones
-print ("Vacacion Empresarial")
-nombre = (input("Cual es tu nombre? "))
+print ("Vacacion Empresarial")                                                                                                               nombre = (input("Cual es tu nombre? "))
 resutado = nombre
 print ("Hola", nombre)
-print ("Empezemos con el listado")                                                                                    print ("Listado de departamentos")
-print ("Presiona 1 DEPARTAMENTO DE ATENCION AL CLIENTE")                                                              print ("Presiona 2 DEPARTAMENTO DE LOGISTICA")
+print ("Empezemos con el listado")
+print ("Listado de departamentos")
+print ("Presiona 1 DEPARTAMENTO DE ATENCION AL CLIENTE")
+print ("Presiona 2 DEPARTAMENTO DE LOGISTICA")
 print ("Presiona 3 GERENCIA")
 respuesta = int(input("Cual es tu departamento? "))
 
@@ -14,7 +14,8 @@ if respuesta == 1:
                 mama = int(input("Cuantos años as trabajado? "))
 
                        elif mama == 1:
-                              print ("tienes derecho a 6 dias de descanso", nombre)                                                          elif mama == 2 or 3 or 4 or 5 or 6:
+                              print ("tienes derecho a 6 dias de descanso", nombre)
+                       elif mama == 2 or 3 or 4 or 5 or 6:
                               print ("tienes derecho a 14 dias de descanso", nombre)
                        elif mama == 7:
                               print ("Tienes derecho a 20 dias de descanso", nombre)
